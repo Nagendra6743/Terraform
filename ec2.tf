@@ -20,7 +20,7 @@ resource "aws_security_group" "allow_everyone" {
   }
 
   
-  tags = {
-    Name = "allow_tls"
-  }
+#   tags = {
+#     Name = "allow_tls"
+#   }
 }
