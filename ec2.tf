@@ -1,5 +1,5 @@
-resource "aws_security_group" "allow_everyone" {
-  name        = "allow_all"
+resource "aws_security_group" "hello" {
+  name        = "hi"
   description = "Allow TLS inbound traffic and all outbound traffic"
 
   ingress {
